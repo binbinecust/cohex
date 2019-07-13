@@ -1,0 +1,4 @@
+type Item {
+  title: String!
+  cont: String!
+}

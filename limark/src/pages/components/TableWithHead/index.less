@@ -1,0 +1,22 @@
+@border-color: rgb(221, 221, 221);
+
+.m-TableWithHead {
+  &-head {
+    font-size: 14px;
+    border: 1px solid @border-color;
+    border-bottom: none;
+    padding: 15px 0;
+    padding-left: 24px;
+    > span {
+      margin-right: 8px;
+      &:nth-child(3) {
+        color: #5c98ff;
+        cursor: pointer;
+      }
+    }
+  }
+  
+  .fishd-table {
+    border: 1px solid @border-color;
+  }
+}
